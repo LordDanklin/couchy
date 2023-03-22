@@ -29,8 +29,11 @@ app.use(express.json());
 
 // if we're in production, serve client/build as static assets
 if (process.env.NODE_ENV === 'production') {
+  console.log("gobbledeegookasdfhaskldfha;sldfkhal;sdfhg");
+  console.log(__dirname);
   app.use(express.static(path.join(__dirname, '../client/build')));
 }
+
 
 
 db.once('open', () => {
