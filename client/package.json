@@ -1,7 +1,7 @@
 {
   "name": "couchy",
   "version": "0.1.0",
-  "homepage": "https://krgurevich.github.io/couchy",
+  "homepage": "",
   "private": true,
   "proxy": "http://localhost:3001",
   "dependencies": {
